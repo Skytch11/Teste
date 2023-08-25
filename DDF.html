@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> Teste </title>
+    <link href="StyleSheet1.css" />
+</head>
+<body>
+    <h3> Queixas: </h3>
+    <div itemtype="http://schema.org/Article">
+        <form action="https://formsubmit.co/your@email.com"
+              method="post">
+            Nome: <br />
+            <input type="text" placeholder="Estudante reportado" />
+            <br />
+            Turma: <br />
+            <input type="number" placeholder="Turma do Aluno" />
+            <br />
+            Data e Horário: <br />
+            <input type="datetime-local" id="send" oninput="result.value = send.value" /> <br />
+            Motivo: <br />
+            <input type="text" /> <br />
+            <button type="submit">submit</button>
+        </form>
+    </div>
+</body>
+</html>
